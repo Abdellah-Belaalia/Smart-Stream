@@ -1,0 +1,1570 @@
+{
+  "channels" : [
+  {
+    "id": "1",
+    "channelNumber": "1001",
+    "name": "AR - National Geographic 2 4K",
+    "category": "DOCUMENTARY",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=NatGeo",
+    "previewImage": "https://via.placeholder.com/800x450?text=NatGeo+Doc",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Wild Wonders (Ep. 95)",
+      "startTime": "13:15",
+      "endTime": "14:15",
+      "progressPercentage": 79
+    }
+  },
+  {
+    "id": "2",
+    "channelNumber": "1002",
+    "name": "AR - Disney Channel 3 FHD",
+    "category": "KIDS",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 30)",
+      "startTime": "10:00",
+      "endTime": "11:15",
+      "progressPercentage": 87
+    }
+  },
+  {
+    "id": "3",
+    "channelNumber": "1003",
+    "name": "AR - Spacetoon 4 SD",
+    "category": "KIDS",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "logo": "https://via.placeholder.com/60x60?text=Spacetoon",
+    "previewImage": "https://via.placeholder.com/800x450?text=Spacetoon+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "كوكب أطفال (Ep. 1)",
+      "startTime": "13:45",
+      "endTime": "14:30",
+      "progressPercentage": 64
+    }
+  },
+  {
+    "id": "4",
+    "channelNumber": "1004",
+    "name": "AR - beIN SPORTS 2 5 HD",
+    "category": "SPORTS",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=beIN2",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Match",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "الدوري الإنجليزي (Ep. 12)",
+      "startTime": "22:30",
+      "endTime": "23:00",
+      "progressPercentage": 22
+    }
+  },
+  {
+    "id": "5",
+    "channelNumber": "1005",
+    "name": "AR - Abu Dhabi Sports 6 4K",
+    "category": "SPORTS",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=ADSports",
+    "previewImage": "https://via.placeholder.com/800x450?text=AD+Sports",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مباراة اليوم (Ep. 69)",
+      "startTime": "22:00",
+      "endTime": "23:45",
+      "progressPercentage": 58
+    }
+  },
+  {
+    "id": "6",
+    "channelNumber": "1006",
+    "name": "AR - Cartoon Network Arabic 7 4K",
+    "category": "KIDS",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=CNArabic",
+    "previewImage": "https://via.placeholder.com/800x450?text=CN+Arabic",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم التسلية والكرتون (Ep. 6)",
+      "startTime": "19:15",
+      "endTime": "20:00",
+      "progressPercentage": 39
+    }
+  },
+  {
+    "id": "7",
+    "channelNumber": "1007",
+    "name": "AR - beIN SPORTS 1 8 HD",
+    "category": "SPORTS",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=beIN1",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Sports",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري أبطال أوروبا Live (Ep. 59)",
+      "startTime": "11:45",
+      "endTime": "12:30",
+      "progressPercentage": 56
+    }
+  },
+  {
+    "id": "8",
+    "channelNumber": "1008",
+    "name": "AR - beIN SPORTS News 9 HD",
+    "category": "SPORTS",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "logo": "https://via.placeholder.com/60x60?text=beINNews",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+News",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "استوديو التحليل (Ep. 78)",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "progressPercentage": 31
+    }
+  },
+  {
+    "id": "9",
+    "channelNumber": "1009",
+    "name": "AR - Rotana Music 10 HD",
+    "category": "MUSIC",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 82)",
+      "startTime": "17:45",
+      "endTime": "18:30",
+      "progressPercentage": 81
+    }
+  },
+  {
+    "id": "10",
+    "channelNumber": "1010",
+    "name": "AR - Mazzika 11 FHD",
+    "category": "MUSIC",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 52)",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "progressPercentage": 18
+    }
+  },
+  {
+    "id": "11",
+    "channelNumber": "1011",
+    "name": "AR - Cartoon Network Arabic 12 HD",
+    "category": "KIDS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=CNArabic",
+    "previewImage": "https://via.placeholder.com/800x450?text=CN+Arabic",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم التسلية والكرتون (Ep. 83)",
+      "startTime": "20:45",
+      "endTime": "21:45",
+      "progressPercentage": 28
+    }
+  },
+  {
+    "id": "12",
+    "channelNumber": "1012",
+    "name": "AR - Al Arabiya 13 4K",
+    "category": "NEWS",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=Arabiya",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arabiya+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "النشرة الإخبارية (Ep. 47)",
+      "startTime": "21:45",
+      "endTime": "22:45",
+      "progressPercentage": 27
+    }
+  },
+  {
+    "id": "13",
+    "channelNumber": "1013",
+    "name": "AR - MBC 1 14 FHD",
+    "category": "ENTERTAINMENT",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=MBC1",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC1+Show",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مسلسل درامي (Ep. 88)",
+      "startTime": "11:15",
+      "endTime": "12:15",
+      "progressPercentage": 86
+    }
+  },
+  {
+    "id": "14",
+    "channelNumber": "1014",
+    "name": "AR - OSN Movies First 15 SD",
+    "category": "ENTERTAINMENT",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=OSN1",
+    "previewImage": "https://via.placeholder.com/800x450?text=OSN+Movies",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Blockbuster Cinema (Ep. 88)",
+      "startTime": "18:30",
+      "endTime": "19:00",
+      "progressPercentage": 24
+    }
+  },
+  {
+    "id": "15",
+    "channelNumber": "1015",
+    "name": "AR - Cartoon Network Arabic 16 4K",
+    "category": "KIDS",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=CNArabic",
+    "previewImage": "https://via.placeholder.com/800x450?text=CN+Arabic",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم التسلية والكرتون (Ep. 21)",
+      "startTime": "11:30",
+      "endTime": "12:45",
+      "progressPercentage": 10
+    }
+  },
+  {
+    "id": "16",
+    "channelNumber": "1016",
+    "name": "AR - Mazzika 17 HD",
+    "category": "MUSIC",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 82)",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "progressPercentage": 87
+    }
+  },
+  {
+    "id": "17",
+    "channelNumber": "1017",
+    "name": "AR - BBC News 18 HD",
+    "category": "NEWS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=BBCNews",
+    "previewImage": "https://via.placeholder.com/800x450?text=BBC+News",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "World News Today (Ep. 63)",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "progressPercentage": 24
+    }
+  },
+  {
+    "id": "18",
+    "channelNumber": "1018",
+    "name": "AR - beIN SPORTS 2 19 FHD",
+    "category": "SPORTS",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=beIN2",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Match",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "الدوري الإنجليزي (Ep. 94)",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "progressPercentage": 18
+    }
+  },
+  {
+    "id": "19",
+    "channelNumber": "1019",
+    "name": "AR - Spacetoon 20 HD",
+    "category": "KIDS",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=Spacetoon",
+    "previewImage": "https://via.placeholder.com/800x450?text=Spacetoon+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "كوكب أطفال (Ep. 34)",
+      "startTime": "20:45",
+      "endTime": "21:15",
+      "progressPercentage": 87
+    }
+  },
+  {
+    "id": "20",
+    "channelNumber": "1020",
+    "name": "AR - CNN International HD",
+    "category": "NEWS",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=CNN",
+    "previewImage": "https://via.placeholder.com/800x450?text=CNN+Live",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "State of the Union (Ep. 86)",
+      "startTime": "21:30",
+      "endTime": "22:45",
+      "progressPercentage": 57
+    }
+  },
+  {
+    "id": "21",
+    "channelNumber": "1021",
+    "name": "AR - Disney Channel 2 FHD",
+    "category": "KIDS",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 44)",
+      "startTime": "13:15",
+      "endTime": "14:00",
+      "progressPercentage": 85
+    }
+  },
+  {
+    "id": "22",
+    "channelNumber": "1022",
+    "name": "AR - CNN International 3 HD",
+    "category": "NEWS",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=CNN",
+    "previewImage": "https://via.placeholder.com/800x450?text=CNN+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "State of the Union (Ep. 30)",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "progressPercentage": 14
+    }
+  },
+  {
+    "id": "23",
+    "channelNumber": "1023",
+    "name": "AR - BBC Earth 4 HD",
+    "category": "DOCUMENTARY",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=BBCEarth",
+    "previewImage": "https://via.placeholder.com/800x450?text=BBC+Earth",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Planet Earth Secrets (Ep. 70)",
+      "startTime": "14:45",
+      "endTime": "15:15",
+      "progressPercentage": 83
+    }
+  },
+  {
+    "id": "24",
+    "channelNumber": "1024",
+    "name": "AR - MBC DRAMA 5 SD",
+    "category": "ENTERTAINMENT",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "logo": "https://via.placeholder.com/60x60?text=MBCDrama",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC+Drama",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دراما عربية جديدة (Ep. 13)",
+      "startTime": "22:45",
+      "endTime": "23:15",
+      "progressPercentage": 94
+    }
+  },
+  {
+    "id": "25",
+    "channelNumber": "1025",
+    "name": "AR - SSC SPORT 1 6 SD",
+    "category": "SPORTS",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=SSC1",
+    "previewImage": "https://via.placeholder.com/800x450?text=SSC+Sport",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري روشن السعودي (Ep. 8)",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "progressPercentage": 53
+    }
+  },
+  {
+    "id": "26",
+    "channelNumber": "1026",
+    "name": "AR - Discovery Channel 7 HD",
+    "category": "DOCUMENTARY",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=Discovery",
+    "previewImage": "https://via.placeholder.com/800x450?text=Discovery+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Extreme Engineering (Ep. 55)",
+      "startTime": "13:45",
+      "endTime": "14:15",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "27",
+    "channelNumber": "1027",
+    "name": "AR - TRT Arabi 8 FHD",
+    "category": "NEWS",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=TRT",
+    "previewImage": "https://via.placeholder.com/800x450?text=TRT+News",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "ما وراء الخبر (Ep. 84)",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "progressPercentage": 11
+    }
+  },
+  {
+    "id": "28",
+    "channelNumber": "1028",
+    "name": "AR - Al Arabiya 9 SD",
+    "category": "NEWS",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=Arabiya",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arabiya+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "النشرة الإخبارية (Ep. 52)",
+      "startTime": "17:45",
+      "endTime": "18:15",
+      "progressPercentage": 31
+    }
+  },
+  {
+    "id": "29",
+    "channelNumber": "1029",
+    "name": "AR - Al Jazeera Documentary 10 4K",
+    "category": "DOCUMENTARY",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=AJDOC",
+    "previewImage": "https://via.placeholder.com/800x450?text=AJ+Doc",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "وثائقيات عالمية (Ep. 55)",
+      "startTime": "22:45",
+      "endTime": "23:30",
+      "progressPercentage": 81
+    }
+  },
+  {
+    "id": "30",
+    "channelNumber": "1030",
+    "name": "AR - Mazzika 11 HD",
+    "category": "MUSIC",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 8)",
+      "startTime": "13:30",
+      "endTime": "14:15",
+      "progressPercentage": 79
+    }
+  },
+  {
+    "id": "31",
+    "channelNumber": "1031",
+    "name": "AR - Mazzika 12 FHD",
+    "category": "MUSIC",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 8)",
+      "startTime": "10:45",
+      "endTime": "11:15",
+      "progressPercentage": 20
+    }
+  },
+  {
+    "id": "32",
+    "channelNumber": "1032",
+    "name": "AR - BBC Earth 13 FHD",
+    "category": "DOCUMENTARY",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "logo": "https://via.placeholder.com/60x60?text=BBCEarth",
+    "previewImage": "https://via.placeholder.com/800x450?text=BBC+Earth",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Planet Earth Secrets (Ep. 16)",
+      "startTime": "20:15",
+      "endTime": "21:45",
+      "progressPercentage": 41
+    }
+  },
+  {
+    "id": "33",
+    "channelNumber": "1033",
+    "name": "AR - MBC3 14 FHD",
+    "category": "KIDS",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "logo": "https://via.placeholder.com/60x60?text=MBC3",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC3+Cartoons",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أبطال التلفزيون (Ep. 27)",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "progressPercentage": 50
+    }
+  },
+  {
+    "id": "34",
+    "channelNumber": "1034",
+    "name": "AR - SSC SPORT 1 15 HD",
+    "category": "SPORTS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=SSC1",
+    "previewImage": "https://via.placeholder.com/800x450?text=SSC+Sport",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري روشن السعودي (Ep. 41)",
+      "startTime": "20:30",
+      "endTime": "21:45",
+      "progressPercentage": 11
+    }
+  },
+  {
+    "id": "35",
+    "channelNumber": "1035",
+    "name": "AR - Jeem TV 16 FHD",
+    "category": "KIDS",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=Jeem",
+    "previewImage": "https://via.placeholder.com/800x450?text=Jeem+TV",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "برامج الأطفال والتعليم (Ep. 17)",
+      "startTime": "11:15",
+      "endTime": "12:30",
+      "progressPercentage": 18
+    }
+  },
+  {
+    "id": "36",
+    "channelNumber": "1036",
+    "name": "AR - beIN SPORTS News 17 HD",
+    "category": "SPORTS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=beINNews",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+News",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "استوديو التحليل (Ep. 86)",
+      "startTime": "17:30",
+      "endTime": "18:00",
+      "progressPercentage": 48
+    }
+  },
+  {
+    "id": "37",
+    "channelNumber": "1037",
+    "name": "AR - Discovery Channel 18 4K",
+    "category": "DOCUMENTARY",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=Discovery",
+    "previewImage": "https://via.placeholder.com/800x450?text=Discovery+Show",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Extreme Engineering (Ep. 35)",
+      "startTime": "11:00",
+      "endTime": "12:15",
+      "progressPercentage": 87
+    }
+  },
+  {
+    "id": "38",
+    "channelNumber": "1038",
+    "name": "AR - Mazzika 19 HD",
+    "category": "MUSIC",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 33)",
+      "startTime": "20:30",
+      "endTime": "21:45",
+      "progressPercentage": 21
+    }
+  },
+  {
+    "id": "39",
+    "channelNumber": "1039",
+    "name": "AR - Rotana Cinema 20 4K",
+    "category": "ENTERTAINMENT",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=Rotana",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Movies",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أفلام زمان والأحدث (Ep. 99)",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "progressPercentage": 91
+    }
+  },
+  {
+    "id": "40",
+    "channelNumber": "1040",
+    "name": "AR - France 24 Arabic SD",
+    "category": "NEWS",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=F24AR",
+    "previewImage": "https://via.placeholder.com/800x450?text=France24+Arabic",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "الأخبار الدولية (Ep. 15)",
+      "startTime": "18:45",
+      "endTime": "19:00",
+      "progressPercentage": 29
+    }
+  },
+  {
+    "id": "41",
+    "channelNumber": "1041",
+    "name": "AR - History 2 HD",
+    "category": "DOCUMENTARY",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=History",
+    "previewImage": "https://via.placeholder.com/800x450?text=History+Doc",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Ancient Discoveries (Ep. 40)",
+      "startTime": "16:15",
+      "endTime": "17:00",
+      "progressPercentage": 15
+    }
+  },
+  {
+    "id": "42",
+    "channelNumber": "1042",
+    "name": "AR - France 24 Arabic 3 HD",
+    "category": "NEWS",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=F24AR",
+    "previewImage": "https://via.placeholder.com/800x450?text=France24+Arabic",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "الأخبار الدولية (Ep. 100)",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "progressPercentage": 62
+    }
+  },
+  {
+    "id": "43",
+    "channelNumber": "1043",
+    "name": "AR - Rotana Music 4 HD",
+    "category": "MUSIC",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 4)",
+      "startTime": "12:15",
+      "endTime": "13:45",
+      "progressPercentage": 52
+    }
+  },
+  {
+    "id": "44",
+    "channelNumber": "1044",
+    "name": "AR - Rotana Cinema 5 HD",
+    "category": "ENTERTAINMENT",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=Rotana",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Movies",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أفلام زمان والأحدث (Ep. 49)",
+      "startTime": "14:15",
+      "endTime": "15:00",
+      "progressPercentage": 70
+    }
+  },
+  {
+    "id": "45",
+    "channelNumber": "1045",
+    "name": "AR - TRT Arabi 6 SD",
+    "category": "NEWS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=TRT",
+    "previewImage": "https://via.placeholder.com/800x450?text=TRT+News",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "ما وراء الخبر (Ep. 29)",
+      "startTime": "15:30",
+      "endTime": "16:15",
+      "progressPercentage": 94
+    }
+  },
+  {
+    "id": "46",
+    "channelNumber": "1046",
+    "name": "AR - MBC VARIETY 7 4K",
+    "category": "ENTERTAINMENT",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=MBCVar",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC+Variety",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "برنامج الترفيه (Ep. 83)",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "progressPercentage": 61
+    }
+  },
+  {
+    "id": "47",
+    "channelNumber": "1047",
+    "name": "AR - Cartoon Network Arabic 8 FHD",
+    "category": "KIDS",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=CNArabic",
+    "previewImage": "https://via.placeholder.com/800x450?text=CN+Arabic",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم التسلية والكرتون (Ep. 75)",
+      "startTime": "11:30",
+      "endTime": "12:15",
+      "progressPercentage": 14
+    }
+  },
+  {
+    "id": "48",
+    "channelNumber": "1048",
+    "name": "AR - Disney Channel 9 4K",
+    "category": "KIDS",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 78)",
+      "startTime": "21:30",
+      "endTime": "22:45",
+      "progressPercentage": 24
+    }
+  },
+  {
+    "id": "49",
+    "channelNumber": "1049",
+    "name": "AR - Spacetoon 10 4K",
+    "category": "KIDS",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=Spacetoon",
+    "previewImage": "https://via.placeholder.com/800x450?text=Spacetoon+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "كوكب أطفال (Ep. 67)",
+      "startTime": "10:45",
+      "endTime": "11:00",
+      "progressPercentage": 95
+    }
+  },
+  {
+    "id": "50",
+    "channelNumber": "1050",
+    "name": "AR - SSC SPORT 1 11 FHD",
+    "category": "SPORTS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=SSC1",
+    "previewImage": "https://via.placeholder.com/800x450?text=SSC+Sport",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري روشن السعودي (Ep. 85)",
+      "startTime": "20:30",
+      "endTime": "21:30",
+      "progressPercentage": 48
+    }
+  },
+  {
+    "id": "51",
+    "channelNumber": "1051",
+    "name": "AR - Arryadia 12 SD",
+    "category": "SPORTS",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=Arryadia",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arryadia+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "البطولة الاحترافية المغربية (Ep. 71)",
+      "startTime": "15:45",
+      "endTime": "16:30",
+      "progressPercentage": 34
+    }
+  },
+  {
+    "id": "52",
+    "channelNumber": "1052",
+    "name": "AR - Mazzika 13 HD",
+    "category": "MUSIC",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=Mazzika",
+    "previewImage": "https://via.placeholder.com/800x450?text=Mazzika+Hits",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أجمل الكليبات (Ep. 71)",
+      "startTime": "19:30",
+      "endTime": "20:45",
+      "progressPercentage": 48
+    }
+  },
+  {
+    "id": "53",
+    "channelNumber": "1053",
+    "name": "AR - Sky News Arabia 14 4K",
+    "category": "NEWS",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=SkyArabia",
+    "previewImage": "https://via.placeholder.com/800x450?text=Sky+News",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم الأخبار (Ep. 87)",
+      "startTime": "17:45",
+      "endTime": "18:45",
+      "progressPercentage": 75
+    }
+  },
+  {
+    "id": "54",
+    "channelNumber": "1054",
+    "name": "AR - Rotana Music 15 FHD",
+    "category": "MUSIC",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 97)",
+      "startTime": "14:30",
+      "endTime": "15:00",
+      "progressPercentage": 49
+    }
+  },
+  {
+    "id": "55",
+    "channelNumber": "1055",
+    "name": "AR - Al Arabiya 16 FHD",
+    "category": "NEWS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Arabiya",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arabiya+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "النشرة الإخبارية (Ep. 79)",
+      "startTime": "10:15",
+      "endTime": "11:45",
+      "progressPercentage": 68
+    }
+  },
+  {
+    "id": "56",
+    "channelNumber": "1056",
+    "name": "AR - MTV Live 17 HD",
+    "category": "MUSIC",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=MTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=MTV+Live",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top 40 Music Video Hits (Ep. 52)",
+      "startTime": "21:45",
+      "endTime": "22:45",
+      "progressPercentage": 28
+    }
+  },
+  {
+    "id": "57",
+    "channelNumber": "1057",
+    "name": "AR - Rotana Music 18 FHD",
+    "category": "MUSIC",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 23)",
+      "startTime": "22:45",
+      "endTime": "23:15",
+      "progressPercentage": 76
+    }
+  },
+  {
+    "id": "58",
+    "channelNumber": "1058",
+    "name": "AR - BBC Earth 19 HD",
+    "category": "DOCUMENTARY",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=BBCEarth",
+    "previewImage": "https://via.placeholder.com/800x450?text=BBC+Earth",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Planet Earth Secrets (Ep. 60)",
+      "startTime": "11:45",
+      "endTime": "12:15",
+      "progressPercentage": 77
+    }
+  },
+  {
+    "id": "59",
+    "channelNumber": "1059",
+    "name": "AR - Cartoon Network Arabic 20 SD",
+    "category": "KIDS",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=CNArabic",
+    "previewImage": "https://via.placeholder.com/800x450?text=CN+Arabic",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "عالم التسلية والكرتون (Ep. 21)",
+      "startTime": "19:45",
+      "endTime": "20:45",
+      "progressPercentage": 70
+    }
+  },
+  {
+    "id": "60",
+    "channelNumber": "1060",
+    "name": "AR - Eurosport 1 HD",
+    "category": "SPORTS",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=Eurosport",
+    "previewImage": "https://via.placeholder.com/800x450?text=Eurosport+Match",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "World Sports Special (Ep. 81)",
+      "startTime": "20:30",
+      "endTime": "21:45",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "61",
+    "channelNumber": "1061",
+    "name": "AR - Quest Arabiya 2 4K",
+    "category": "DOCUMENTARY",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=Quest",
+    "previewImage": "https://via.placeholder.com/800x450?text=Quest+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مغامرات وعظماء (Ep. 41)",
+      "startTime": "13:30",
+      "endTime": "14:30",
+      "progressPercentage": 20
+    }
+  },
+  {
+    "id": "62",
+    "channelNumber": "1062",
+    "name": "AR - Al Arabiya 3 SD",
+    "category": "NEWS",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "logo": "https://via.placeholder.com/60x60?text=Arabiya",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arabiya+Live",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "النشرة الإخبارية (Ep. 9)",
+      "startTime": "21:15",
+      "endTime": "22:15",
+      "progressPercentage": 62
+    }
+  },
+  {
+    "id": "63",
+    "channelNumber": "1063",
+    "name": "AR - Disney Channel 4 SD",
+    "category": "KIDS",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 50)",
+      "startTime": "10:15",
+      "endTime": "11:45",
+      "progressPercentage": 12
+    }
+  },
+  {
+    "id": "64",
+    "channelNumber": "1064",
+    "name": "AR - Disney Channel 5 SD",
+    "category": "KIDS",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 97)",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "progressPercentage": 63
+    }
+  },
+  {
+    "id": "65",
+    "channelNumber": "1065",
+    "name": "AR - MTV Live 6 HD",
+    "category": "MUSIC",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "logo": "https://via.placeholder.com/60x60?text=MTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=MTV+Live",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top 40 Music Video Hits (Ep. 56)",
+      "startTime": "17:15",
+      "endTime": "18:30",
+      "progressPercentage": 13
+    }
+  },
+  {
+    "id": "66",
+    "channelNumber": "1066",
+    "name": "AR - Arryadia 7 SD",
+    "category": "SPORTS",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "logo": "https://via.placeholder.com/60x60?text=Arryadia",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arryadia+Live",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "البطولة الاحترافية المغربية (Ep. 17)",
+      "startTime": "21:15",
+      "endTime": "22:45",
+      "progressPercentage": 78
+    }
+  },
+  {
+    "id": "67",
+    "channelNumber": "1067",
+    "name": "AR - OSN Yahala 8 FHD",
+    "category": "ENTERTAINMENT",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "logo": "https://via.placeholder.com/60x60?text=OSNYahala",
+    "previewImage": "https://via.placeholder.com/800x450?text=OSN+Yahala",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مسلسلات خليجية (Ep. 60)",
+      "startTime": "11:45",
+      "endTime": "12:15",
+      "progressPercentage": 16
+    }
+  },
+  {
+    "id": "68",
+    "channelNumber": "1068",
+    "name": "AR - MBC VARIETY 9 HD",
+    "category": "ENTERTAINMENT",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=MBCVar",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC+Variety",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "برنامج الترفيه (Ep. 98)",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "69",
+    "channelNumber": "1069",
+    "name": "AR - MBC VARIETY 10 FHD",
+    "category": "ENTERTAINMENT",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=MBCVar",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC+Variety",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "برنامج الترفيه (Ep. 45)",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "progressPercentage": 93
+    }
+  },
+  {
+    "id": "70",
+    "channelNumber": "1070",
+    "name": "AR - Rotana Music 11 FHD",
+    "category": "MUSIC",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 80)",
+      "startTime": "13:15",
+      "endTime": "14:00",
+      "progressPercentage": 40
+    }
+  },
+  {
+    "id": "71",
+    "channelNumber": "1071",
+    "name": "AR - Dubai TV 12 FHD",
+    "category": "ENTERTAINMENT",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "logo": "https://via.placeholder.com/60x60?text=DubaiTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=Dubai+TV+Show",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دبي اليوم (Ep. 90)",
+      "startTime": "19:15",
+      "endTime": "20:45",
+      "progressPercentage": 57
+    }
+  },
+  {
+    "id": "72",
+    "channelNumber": "1072",
+    "name": "AR - Jeem TV 13 FHD",
+    "category": "KIDS",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "logo": "https://via.placeholder.com/60x60?text=Jeem",
+    "previewImage": "https://via.placeholder.com/800x450?text=Jeem+TV",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "برامج الأطفال والتعليم (Ep. 14)",
+      "startTime": "22:15",
+      "endTime": "23:30",
+      "progressPercentage": 13
+    }
+  },
+  {
+    "id": "73",
+    "channelNumber": "1073",
+    "name": "AR - Disney Channel 14 SD",
+    "category": "KIDS",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Animated Classics (Ep. 76)",
+      "startTime": "21:15",
+      "endTime": "22:00",
+      "progressPercentage": 90
+    }
+  },
+  {
+    "id": "74",
+    "channelNumber": "1074",
+    "name": "AR - Quest Arabiya 15 4K",
+    "category": "DOCUMENTARY",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Quest",
+    "previewImage": "https://via.placeholder.com/800x450?text=Quest+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مغامرات وعظماء (Ep. 45)",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 64
+    }
+  },
+  {
+    "id": "75",
+    "channelNumber": "1075",
+    "name": "AR - beIN SPORTS 1 16 4K",
+    "category": "SPORTS",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=beIN1",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Sports",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري أبطال أوروبا Live (Ep. 14)",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "progressPercentage": 56
+    }
+  },
+  {
+    "id": "76",
+    "channelNumber": "1076",
+    "name": "AR - Dubai TV 17 HD",
+    "category": "ENTERTAINMENT",
+    "country": "Oman",
+    "countryCode": "OM",
+    "logo": "https://via.placeholder.com/60x60?text=DubaiTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=Dubai+TV+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دبي اليوم (Ep. 79)",
+      "startTime": "16:15",
+      "endTime": "17:30",
+      "progressPercentage": 71
+    }
+  },
+  {
+    "id": "77",
+    "channelNumber": "1077",
+    "name": "AR - Rotana Cinema 18 4K",
+    "category": "ENTERTAINMENT",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=Rotana",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Movies",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أفلام زمان والأحدث (Ep. 36)",
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "progressPercentage": 41
+    }
+  },
+  {
+    "id": "78",
+    "channelNumber": "1078",
+    "name": "AR - OSN Yahala 19 SD",
+    "category": "ENTERTAINMENT",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=OSNYahala",
+    "previewImage": "https://via.placeholder.com/800x450?text=OSN+Yahala",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مسلسلات خليجية (Ep. 42)",
+      "startTime": "15:00",
+      "endTime": "16:45",
+      "progressPercentage": 72
+    }
+  },
+  {
+    "id": "79",
+    "channelNumber": "1079",
+    "name": "AR - Eurosport 1 20 4K",
+    "category": "SPORTS",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Eurosport",
+    "previewImage": "https://via.placeholder.com/800x450?text=Eurosport+Match",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "World Sports Special (Ep. 72)",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "progressPercentage": 76
+    }
+  },
+  {
+    "id": "80",
+    "channelNumber": "1080",
+    "name": "AR - Discovery Channel SD",
+    "category": "DOCUMENTARY",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "logo": "https://via.placeholder.com/60x60?text=Discovery",
+    "previewImage": "https://via.placeholder.com/800x450?text=Discovery+Show",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Extreme Engineering (Ep. 83)",
+      "startTime": "17:15",
+      "endTime": "18:45",
+      "progressPercentage": 72
+    }
+  },
+  {
+    "id": "81",
+    "channelNumber": "1081",
+    "name": "AR - National Geographic 2 4K",
+    "category": "DOCUMENTARY",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "logo": "https://via.placeholder.com/60x60?text=NatGeo",
+    "previewImage": "https://via.placeholder.com/800x450?text=NatGeo+Doc",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Wild Wonders (Ep. 40)",
+      "startTime": "13:45",
+      "endTime": "14:15",
+      "progressPercentage": 84
+    }
+  },
+  {
+    "id": "82",
+    "channelNumber": "1082",
+    "name": "AR - OSN Yahala 3 4K",
+    "category": "ENTERTAINMENT",
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "logo": "https://via.placeholder.com/60x60?text=OSNYahala",
+    "previewImage": "https://via.placeholder.com/800x450?text=OSN+Yahala",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مسلسلات خليجية (Ep. 90)",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "progressPercentage": 44
+    }
+  },
+  {
+    "id": "83",
+    "channelNumber": "1083",
+    "name": "AR - beIN SPORTS 2 4 FHD",
+    "category": "SPORTS",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "logo": "https://via.placeholder.com/60x60?text=beIN2",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Match",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "الدوري الإنجليزي (Ep. 16)",
+      "startTime": "21:15",
+      "endTime": "22:30",
+      "progressPercentage": 78
+    }
+  },
+  {
+    "id": "84",
+    "channelNumber": "1084",
+    "name": "AR - Rotana Music 5 HD",
+    "category": "MUSIC",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=RotanaMusic",
+    "previewImage": "https://via.placeholder.com/800x450?text=Rotana+Music",
+    "streamUrl": "https://demo.unified-streaming.com/k8s/live/stable/out/v1/master.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "أغاني وأسطوانات (Ep. 93)",
+      "startTime": "13:45",
+      "endTime": "14:30",
+      "progressPercentage": 77
+    }
+  },
+  {
+    "id": "85",
+    "channelNumber": "1085",
+    "name": "AR - beIN SPORTS 1 6 HD",
+    "category": "SPORTS",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "logo": "https://via.placeholder.com/60x60?text=beIN1",
+    "previewImage": "https://via.placeholder.com/800x450?text=beIN+Sports",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "دوري أبطال أوروبا Live (Ep. 23)",
+      "startTime": "14:15",
+      "endTime": "15:30",
+      "progressPercentage": 11
+    }
+  },
+  {
+    "id": "86",
+    "channelNumber": "1086",
+    "name": "AR - Spacetoon 7 4K",
+    "category": "KIDS",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "logo": "https://via.placeholder.com/60x60?text=Spacetoon",
+    "previewImage": "https://via.placeholder.com/800x450?text=Spacetoon+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "كوكب أطفال (Ep. 90)",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "progressPercentage": 91
+    }
+  },
+  {
+    "id": "87",
+    "channelNumber": "1087",
+    "name": "AR - MBC 1 8 FHD",
+    "category": "ENTERTAINMENT",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "logo": "https://via.placeholder.com/60x60?text=MBC1",
+    "previewImage": "https://via.placeholder.com/800x450?text=MBC1+Show",
+    "streamUrl": "https://m3u.pro/live/stream.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "مسلسل درامي (Ep. 62)",
+      "startTime": "19:30",
+      "endTime": "20:45",
+      "progressPercentage": 53
+    }
+  }
+  ]
+}

@@ -17,47 +17,65 @@
       <div class="text-sm text-gray-300">TV en direct</div>
     </header>
 
-    <main class="grid grid-cols-1 lg:grid-cols-12 h-full">
-      <aside id="sidebar" class="col-span-4 bg-gray-600">
+    <main class="grid grid-cols-1 lg:grid-cols-12 h-screen">
+      <div
+        id="hover-zone"
+        class="fixed top-0 left-0 w-3 h-screen z-30"
+      ></div>
+      <aside id="sidebar" class="col-span-4 bg-gray-600 h-screen flex flex-col">
         <div class="flex items-center m-2 gap-4 px-2.5 py-3">
-          <div class="relative">
-            <button id="categorie-btn" class="bg-gray-200 p-2 rounded-lg">
-              categories
-            </button>
+          <button id="categorie-btn" class="bg-gray-200 text-lg p-2 rounded-lg">
+            Categories
+          </button>
+          <div
+            id="background"
+            class="hidden fixed inset-0 bg-black/40 z-40"
+          ></div>
 
-            <div
-              id="categorie-bar"
-              class="hidden absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg p-3 w-48 z-50"
-            >
-              <!-- <h3 class="font-bild mb-2">Categories</h3> -->
+          <div
+            id="categorie-bar"
+            class="fixed top-0 -left-64 bg-white rounded-lg shadow-xl p-3 w-64 z-50 h-screen transition-all duration-300 ease-in-out"
+          >
+            <div class="flex justify-between items-centre mb-4 border-b pb-3">
+              <h2 class="text-xl font-bold">Catégories</h2>
 
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Toutes categories
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Sport
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Documentaires
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Films
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Dessins animés
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Actualités
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Musique
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Cuisine
-              </div>
-              <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
-                Religion
-              </div>
+              <button
+                id="button-close"
+                class="font-bold text-gray-500 hover:bg-red-500 hover:text-white w-10 h-10"
+              >
+                x
+              </button>
+            </div>
+
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Toutes categories
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Chaîne nationale
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Sport
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Documentaires
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Films
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Dessins animés
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Actualités
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Musique
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Cuisine
+            </div>
+            <div class="categories-item p-2 rounded-lg hover:bg-gray-200">
+              Religion
             </div>
           </div>
           <div class="w-full">
@@ -69,24 +87,28 @@
           </div>
         </div>
 
-        <div class="mt-2 mx-5 flex items-center justify-between">
+        <div class="mt-2 mx-5 flex items-center justify-between ">
           <h3 class="text-white font-bold text-3xl">Channels Television</h3>
           <span class="text-gray-300 text-xl">En direct</span>
         </div>
-        <div class="m-4 h-screen overflow-y-auto">
-          <div
-            class="card-channels bg-gray-100 p-1 flex rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md hover:shadow-amber-50"
+        <div id="channels-card" class="m-4 min-h-0 overflow-y-auto scrollbar-thumb-gray-500">
+          <!-- <div
+            class="card-channels bg-gray-800 border border-gray-700 p-2 flex items-center rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md"
           >
-            <img src="src/assets/2m.png" alt="" class="w-20 object-contain" />
-            <div class="p-2">
-              <h1 class="font-bold">2m</h1>
-              <h2 class="text-xs">nationale</h2>
+            <img
+              src="src/assets/2m.png"
+              alt=""
+              class="w-16 h-16w-16 bg-white rounded-lg p-1 object-contain"
+            />
+            <div class="p-2 min-w-0 flex-1">
+              <h1 class="font-bold text-white">2m</h1>
+              <h2 class="text-xs text-gray-400 mt-1">Chaîne nationale</h2>
             </div>
-          </div>
+          </div> -->
         </div>
       </aside>
 
-      <section class="bg-blue-800 h-full col-span-8">
+      <section class="bg-blue-800 h-screen col-span-8">
         <div id="categories" class="ml-8 my-4 flex gap-2">
           <h1>TV en direct</h1>
         </div>
