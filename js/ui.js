@@ -1,6 +1,3 @@
-import { getChannels } from "./api.js";
-
-
 export function showCategorie() {
     const categorieBtn = document.getElementById("categorie-btn");
     const background = document.getElementById("background")
@@ -37,18 +34,39 @@ export function showCategorie() {
     background.addEventListener("click", closeBar)
 }
 
-// export function rendre (){
-//     getChannels()
-//     .then(data=>{
-//         console.log(data)
-//     })
+function getCategories(channels){
+    const categories = channels.map(channel => channel.category)
+    const uniqueCategorie = categories.filter((category, index) => {
+        return categories.indexOf(category) === index
+    });
+    return ["TOUTES CATÉGORIES", ...uniqueCategorie]
+}
 
-// }
+export function categoryShower(channels){
+    const categoriesList = document.getElementById('categories-list')
+    if(!categoriesList) return;
+    categoriesList.innerHTML = "";
 
-export async function rendre(){
+    const categorie = getCategories(channels)
+
+    categorie.forEach(category => {
+        const eachCategory = document.createElement("div")
+            eachCategory.textContent = category;
+            eachCategory.classList.add(
+                "categories-item",
+                "p-2",
+                "rounded-lg",
+                "hover:bg-gray-200"
+            );
+
+            categoriesList.appendChild(eachCategory)
+    });
+}
+
+
+export function rendre(data){
     const channelsCard = document.getElementById("channels-card")
     if(!channelsCard) return;
-    const data = await getChannels()
     channelsCard.innerHTML = ""
     data.forEach(element => {
         channelsCard.innerHTML += `
@@ -58,7 +76,7 @@ export async function rendre(){
             <img
               src="${element.logo}"
               alt=""
-              class="w-16 h-16w-16 bg-white rounded-lg p-1 object-contain"
+              class="w-16 h-16 bg-white rounded-lg p-1 object-contain"
             />
             <div class="p-2 min-w-0 flex-1">
               <h1 class="font-bold text-white">${element.name}</h1>
