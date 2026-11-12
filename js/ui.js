@@ -1,4 +1,3 @@
-import { selectCategory } from "./search.js"; 
 export function showCategorie() {
     const categorieBtn = document.getElementById("categorie-btn");
     const background = document.getElementById("background")

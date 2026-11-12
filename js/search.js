@@ -17,3 +17,24 @@ export function selectCategory(channels){
          console.log(channelsFilter)
     });
 }
+
+export function rechercheChannel(channels){
+    const searchBar = document.getElementById("search-bar")
+    
+    if(!searchBar) return;
+
+    searchBar.addEventListener('input', (e)=>{
+        const chercheValure = e.target.value.toLowerCase().trim()
+
+        const channelsFilter = channels.filter(channel =>
+
+            channel.name.toLowerCase().includes(chercheValure) ||
+            channel.category.toLowerCase().includes(chercheValure) ||
+            channel.country.toLowerCase().includes(chercheValure) ||
+            channel.channelNumber.toLowerCase().includes(chercheValure)
+        );
+
+        console.log(channelsFilter)
+        
+    })
+}

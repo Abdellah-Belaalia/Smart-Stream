@@ -7,6 +7,7 @@ const channels = getData("channels")
 showCategorie();
 
 categoryShower(channels)
+rechercheChannel(channels)
 selectCategory(channels)
 rendre(channels);
 
