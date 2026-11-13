@@ -39,6 +39,7 @@ function getCategories(channels) {
     const uniqueCategorie = categories.filter((category, index) => {
         return categories.indexOf(category) === index
     });
+    console.log(["TOUTES CATÉGORIES", ...uniqueCategorie])
     return ["TOUTES CATÉGORIES", ...uniqueCategorie]
 }
 
@@ -185,7 +186,6 @@ export function playChannel(channels) {
         const selectedChannel = channels.find(
             channel => channel.id === channelId
         );
-        console.log(selectedChannel.epg.startTime)
 
         document.getElementById('channels-selected').textContent = selectedChannel.name
         document.getElementById('channel-number').textContent = selectedChannel.channelNumber
@@ -196,5 +196,16 @@ export function playChannel(channels) {
         document.getElementById("epg-start").textContent = selectedChannel.epg.startTime
         document.getElementById("epg-end").textContent = selectedChannel.epg.endTime
         document.getElementById('epg-progress').style.width = `${selectedChannel.epg.progressPercentage}%`
+
+
+    const videoPlayer = document.getElementById("player-video")
+    if(!videoPlayer) return
+
+    videoPlayer.src = selectedChannel.streamUrl;
+    videoPlayer.load()
+
+    videoPlayer.play().catch(error =>{
+        console.log("MarBA7nach", error)
+    })
     })
 }
