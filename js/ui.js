@@ -202,6 +202,13 @@ export function playChannel(channels) {
     channelsCard.addEventListener("click", (e) => {
         const selectedCard = e.target.closest(".card-channels")
         if (!selectedCard) return;
+
+        document.querySelectorAll(".card-channels").forEach(card =>{
+            card.classList.remove("bg-blue-900", "border-2", "border-blue-500")
+        });
+
+        selectedCard.classList.add("bg-blue-900", "border-2", "border-blue-500")
+
         const channelId = selectedCard.dataset.channelId;
 
         const selectedChannel = channels.find(
@@ -237,5 +244,5 @@ export function hideSpinner(){
     if(!loader) return;
     setTimeout(()=>{
         loader.classList.add("hidden")
-    }, 5000)
+    }, 1500)
 }
