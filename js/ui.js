@@ -34,7 +34,7 @@ export function showCategorie() {
     background.addEventListener("click", closeBar)
 }
 
-function getCategories(channels){
+function getCategories(channels) {
     const categories = channels.map(channel => channel.category)
     const uniqueCategorie = categories.filter((category, index) => {
         return categories.indexOf(category) === index
@@ -42,48 +42,132 @@ function getCategories(channels){
     return ["TOUTES CATÉGORIES", ...uniqueCategorie]
 }
 
-export function categoryShower(channels){
+export function categoryShower(channels) {
     const categoriesList = document.getElementById('categories-list')
-    if(!categoriesList) return;
+    if (!categoriesList) return;
     categoriesList.innerHTML = "";
 
     const categorie = getCategories(channels)
 
     categorie.forEach(category => {
         const eachCategory = document.createElement("div")
-            eachCategory.textContent = category;
-            eachCategory.classList.add(
-                "categories-item",
-                "p-2",
-                "rounded-lg",
-                "hover:bg-gray-200"
-            );
+        eachCategory.textContent = category;
+        eachCategory.classList.add(
+            "categories-item",
+            "p-2",
+            "rounded-lg",
+            "hover:bg-gray-200"
+        );
 
-            categoriesList.appendChild(eachCategory)
+        categoriesList.appendChild(eachCategory)
     });
 }
 
 
-export function rendre(data){
+export function rendre(data) {
     const channelsCard = document.getElementById("channels-card")
-    if(!channelsCard) return;
+    if (!channelsCard) return;
     channelsCard.innerHTML = ""
+
+    if (data.length === 0) {
+        channelsCard.textContent = "No channels found";
+        return
+    }
+
     data.forEach(element => {
-        channelsCard.innerHTML += `
-        <div
-            class="card-channels bg-gray-800 border border-gray-700 p-2 flex items-center rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md"
-          >
-            <img
-              src="${element.logo}"
-              alt=""
-              class="w-16 h-16 bg-white rounded-lg p-1 object-contain"
-            />
-            <div class="p-2 min-w-0 flex-1">
-              <h1 class="font-bold text-white">${element.name}</h1>
-              <h2 class="text-xs text-gray-400 mt-1">${element.category}</h2>
-            </div>
-          </div>
-        `
+        const card = document.createElement('div')
+
+        card.classList.add(
+            "card-channels",
+            "bg-gray-800",
+            "border",
+            "p-2",
+            "flex",
+            "items-center",
+            "rounded-lg",
+            "my-2",
+            "hover:-translate-y-1",
+            "transition",
+            "duration-300",
+            "shadow-md"
+        )
+
+        const img = document.createElement("img")
+
+        img.scr = element.logo;
+        img.alt = element.name;
+
+        img.classList.add(
+            "w-16",
+            "h-16",
+            "bg-white",
+            "rounded-lg",
+            "p-1",
+            "object-contain"
+        )
+
+        const content = document.createElement('div')
+
+        content.classList.add(
+            "p-2",
+            "min-w-0",
+            "flex-1"
+        )
+
+        const title = document.createElement('h1')
+
+        title.textContent = element.name
+        title.classList.add(
+            "font-bold",
+            "text-white"
+        )
+
+        const categorie = document.createElement('p')
+
+        categorie.textContent = element.category
+        categorie.classList.add(
+            "text-xs",
+            "text-gray-400",
+            "mt-1"
+        )
+        const country = document.createElement('p')
+
+        country.textContent = element.country
+        country.classList.add(
+            "text-xs",
+            "text-gray-400",
+            "mt-1"
+        )
+
+        const number = document.createElement('p')
+
+        number.textContent = element.channelNumber
+        number.classList.add(
+            "text-xs",
+            "text-gray-400",
+            "mt-1"
+        )
+
+        content.append(title, categorie, country, number);
+        card.append(img, content);
+        channelsCard.append(card)
     });
 }
 
+    // data.forEach(element => {
+    //     channelsCard.innerHTML += `
+    //     <div
+    //         class="card-channels bg-gray-800 border border-gray-700 p-2 flex items-center rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md"
+    //       >
+    //         <img
+    //           src="${element.logo}"
+    //           alt=""
+    //           class="w-16 h-16 bg-white rounded-lg p-1 object-contain"
+    //         />
+    //         <div class="p-2 min-w-0 flex-1">
+    //           <h1 class="font-bold text-white">${element.name}</h1>
+    //           <h2 class="text-xs text-gray-400 mt-1">${element.category}</h2>
+    //         </div>
+    //       </div>
+    //     `
+    // });
