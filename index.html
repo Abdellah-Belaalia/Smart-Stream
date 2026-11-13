@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Smart Stream</title>
   </head>
-  <body class="p-1 m-1">
+  <body class="m-0 h-screen flex flex-col overflow-hidden">
     <header
       class="bg-gray-900 text-white px-6 py-4 flex items-center justify-between shadow-lg"
     >
@@ -17,9 +17,9 @@
       <div class="text-sm text-gray-300">TV en direct</div>
     </header>
 
-    <main class="grid grid-cols-1 lg:grid-cols-12 h-screen">
+    <main class="grid grid-cols-1 lg:grid-cols-12 flex-1 min-h-0">
       <div id="hover-zone" class="fixed top-0 left-0 w-3 h-screen z-30"></div>
-      <aside id="sidebar" class="col-span-4 bg-gray-600 h-screen flex flex-col">
+      <aside id="sidebar" class="col-span-4 bg-gray-600 min-h-0 flex flex-col overflow-hidden">
         <div class="flex items-center m-2 gap-4 px-2.5 py-3">
           <button id="categorie-btn" class="bg-gray-200 text-lg p-2 rounded-lg">
             Categories
@@ -72,13 +72,16 @@
         </div>
       </aside>
 
-      <section class="bg-blue-950 min-h-screen col-span-8 p-6">
+      <section class="bg-blue-950 min-h-0 col-span-8 p-6 flex flex-col overflow-y-auto">
         <div id="channel-header" class="flex items-center justify-between mb-4">
           <div>
-            <h1 id="player-channel" class="text-white text--xl font-bold">
+            <h1 id="player-channel" class="text-white text-2xl font-bold">
               TV en direct
             </h1>
-            <p id="player-text" class="text-blue-200 text-sm">Select Channel</p>
+            <h2 id="channels-selected" class="text-white text-xl font-bold">
+              Channel
+            </h2>
+            <p id="channel-number" class="text-blue-200 text-sm">Select Channel</p>
           </div>
           <div
             id="country-code"
@@ -88,31 +91,31 @@
 
         <div
           id="play-case"
-          class="bg-black w-full aspect-video rounded-lg overflow-hidden"
+          class="bg-black w-full aspect-video rounded-lg overflow-hidden shrink-0"
         >
           <video id="player-video" class="h-full w-full" controls></video>
         </div>
 
-        <div id="egp-zone" class="bg-blue-900 text-white mt-4 p-4 rounded-lg">
-          <h2 class="bg-white-200 font-black text-lg mb-2">
+        <div id="egp-zone" class="bg-blue-900 text-white mt-4 p-4 rounded-lg shrink-0">
+          <h2 class="bg-white-200 font-black text-lg mb-3">
             Programme en cours
           </h2>
 
-          <div class="flex justify-between text-sm text-blue-300 mt-3">
-            <span id="egp-start"></span>
-            <span id="egp-end"></span>
+          <h3 id="epg-program" class="text-white"></h3>
+
+          <div class="flex justify-between text-2xl text-white mt-3">
+            <p id="epg-start"></p>
+            <span id="epg-end"></span>
           </div>
 
           <div class="w-full bg-blue-950 rounded-full h-2 mt 2">
-            <div id="egp-progress" class="bg-green-400 h-2 rounded-full">
-
-            </div>
+            <div id="epg-progress" class="bg-green-400 h-2 rounded-full" style="width: 0%;"></div>
           </div>
         </div>
       </section>
     </main>
 
-        <footer
+    <!-- <footer
       class="bg-gray-900 text-white px-6 py-4 flex items-center justify-between shadow-lg"
     >
       <div>
@@ -120,7 +123,7 @@
         <p class="text-gray-400 text-xs">Votre télivision</p>
       </div>
       <div class="text-sm text-gray-300">TV en direct</div>
-        </footer>
+    </footer> -->
 
     <script type="module" src="js/app.js"></script>
   </body>

@@ -96,7 +96,7 @@ export function rendre(data) {
 
         const img = document.createElement("img")
 
-        img.scr = element.logo;
+        img.src = element.logo;
         img.alt = element.name;
 
         img.classList.add(
@@ -185,6 +185,16 @@ export function playChannel(channels) {
         const selectedChannel = channels.find(
             channel => channel.id === channelId
         );
-        console.log(selectedChannel)
+        console.log(selectedChannel.epg.startTime)
+
+        document.getElementById('channels-selected').textContent = selectedChannel.name
+        document.getElementById('channel-number').textContent = selectedChannel.channelNumber
+        document.getElementById('country-code').textContent = selectedChannel.countryCode
+
+        
+        document.getElementById('epg-program').textContent = selectedChannel.epg.currentProgram
+        document.getElementById("epg-start").textContent = selectedChannel.epg.startTime
+        document.getElementById("epg-end").textContent = selectedChannel.epg.endTime
+        document.getElementById('epg-progress').style.width = `${selectedChannel.epg.progressPercentage}%`
     })
 }
