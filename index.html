@@ -19,9 +19,15 @@
 
     <main class="grid grid-cols-1 lg:grid-cols-12 flex-1">
       <div id="hover-zone" class="fixed top-0 left-0 w-1 h-screen z-30"></div>
-      <aside id="sidebar" class="lg:col-span-4 bg-gray-600 h-screen flex flex-col overflow-hidden">
+      <aside
+        id="sidebar"
+        class="lg:col-span-4 bg-gray-600 h-screen flex flex-col overflow-hidden"
+      >
         <div class="flex items-center m-2 gap-3 px-2 py-3 shrink-0">
-          <button id="categorie-btn" class="bg-gray-200 text-sm md:text-lg p-2 rounded-lg shrink-0">
+          <button
+            id="categorie-btn"
+            class="bg-gray-200 text-sm md:text-lg p-2 rounded-lg shrink-0"
+          >
             Categories
           </button>
           <div
@@ -33,9 +39,7 @@
             id="categorie-bar"
             class="fixed top-0 -left-64 bg-white rounded-lg shadow-xl p-3 w-64 z-50 h-screen transition-all duration-300 ease-in-out"
           >
-            <div
-              class="flex justify-between items-center mb-4 border-b pb-3"
-            >
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
               <h2 class="text-xl font-bold">Catégories</h2>
 
               <button
@@ -60,9 +64,15 @@
           </div>
         </div>
 
-        <div class="mt-2 mx-5 md:mx-5 flex items-center justify-between gap-2 shrink-0">
-          <h3 class="text-white font-bold text-xl md:text-3xl">Channels Television</h3>
-          <span class="text-gray-300 text-sm md:text-xl shrink-0">En direct</span>
+        <div
+          class="mt-2 mx-5 md:mx-5 flex items-center justify-between gap-2 shrink-0"
+        >
+          <h3 class="text-white font-bold text-xl md:text-3xl">
+            Channels Television
+          </h3>
+          <span class="text-gray-300 text-sm md:text-xl shrink-0"
+            >En direct</span
+          >
         </div>
         <div
           id="channels-card"
@@ -72,13 +82,24 @@
         </div>
       </aside>
 
-      <section class="bg-blue-950 lg:col-span-8 p-3 md:p-6 flex flex-col gap-3 overflow-y-auto">
-        <div id="channel-header" class="flex items-center justify-between gap-3 shrink-0">
+      <section
+        class="bg-blue-950 lg:col-span-8 p-3 md:p-6 flex flex-col gap-3 overflow-y-auto"
+      >
+        <div
+          id="channel-header"
+          class="flex items-center justify-between gap-3 shrink-0"
+        >
           <div class="min-w-0">
-            <h1 id="player-channel" class="text-white text-xl md:text-2xl font-bold">
+            <h1
+              id="player-channel"
+              class="text-white text-xl md:text-2xl font-bold"
+            >
               TV en direct
             </h1>
-            <h2 id="channels-selected" class="text-white text-lg md:text-xl font-bold">
+            <h2
+              id="channels-selected"
+              class="text-white text-lg md:text-xl font-bold"
+            >
               Channel
             </h2>
             <p id="channel-number" class="text-blue-200 text-sm"></p>
@@ -93,33 +114,51 @@
           id="play-case"
           class="bg-black w-full aspect-video rounded-lg overflow-hidden shrink-0"
         >
-          <video id="player-video" class="h-full w-full" controls autoplay muted></video>
+          <video
+            id="player-video"
+            class="h-full w-full"
+            controls
+            autoplay
+            muted
+          ></video>
         </div>
 
-        <div id="egp-zone" class="bg-blue-900 text-white p-3 md:p-4 rounded-lg shrink-0">
-          <h2 class="font-black text-xl md:text-lg mb-2">
-            Programme en cours
-          </h2>
+        <div
+          id="egp-zone"
+          class="bg-blue-900 text-white p-3 md:p-4 rounded-lg shrink-0"
+        >
+          <h2 class="font-black text-xl md:text-lg mb-2">Programme en cours</h2>
 
           <h3 id="epg-program" class="text-white"></h3>
 
-          <div class="flex justify-between gap-2 text-xl md:text-2xl text-white mt-3">
+          <div
+            class="flex justify-between gap-2 text-xl md:text-2xl text-white mt-3"
+          >
             <p id="epg-start"></p>
             <span id="epg-end"></span>
           </div>
 
           <div class="w-full bg-blue-950 rounded-full h-2 mt 2">
-            <div id="epg-progress" class="bg-green-400 h-2 rounded-full" style="width: 0%;"></div>
+            <div
+              id="epg-progress"
+              class="bg-green-400 h-2 rounded-full"
+              style="width: 0%"
+            ></div>
           </div>
         </div>
       </section>
     </main>
 
+    <div id="page-loader" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black">
+      <div class="w-20 h-20 border-gray-600 border-4 border-t-blue-500 rounded-full animate-spin"></div>
+      <h2 class="mt-2 text-xl font-black text-white">SMART STREAM</h2>
+    </div>
+
     <footer
       class="bg-gray-900 text-gray-400 px-4 md:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs md:text-sm shrink-0"
     >
-    <P>2026 Smart Stream</P>
-    <P>Votre télévision en direct</P>
+      <p>2026 Smart Stream</p>
+      <p>Votre télévision en direct</p>
     </footer>
 
     <script type="module" src="js/app.js"></script>

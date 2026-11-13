@@ -230,3 +230,12 @@ export function playChannel(channels) {
         })
     })
 }
+
+
+export function hideSpinner(){
+    const loader = document.getElementById("page-loader")
+    if(!loader) return;
+    setTimeout(()=>{
+        loader.classList.add("hidden")
+    }, 5000)
+}
