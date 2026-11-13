@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Smart Stream</title>
   </head>
-  <body class="m-0 h-screen flex flex-col overflow-hidden">
+  <body class="min-m-0 h-screen flex flex-col bg-gray-950">
     <header
-      class="bg-gray-900 text-white px-6 py-4 flex items-center justify-between shadow-lg"
+      class="bg-gray-900 text-white px-4 md:py-4 py-3 flex items-center justify-between shadow-lg shrink-0"
     >
       <div>
-        <h1 class="text-2xl font-bold">Smart Stream</h1>
+        <h1 class="text-xl md:text-2xl font-bold">Smart Stream</h1>
         <p class="text-gray-400 text-xs">Votre télivision</p>
       </div>
       <div class="text-sm text-gray-300">TV en direct</div>
     </header>
 
-    <main class="grid grid-cols-1 lg:grid-cols-12 flex-1 min-h-0">
+    <main class="grid grid-cols-1 lg:grid-cols-12 flex-1">
       <div id="hover-zone" class="fixed top-0 left-0 w-1 h-screen z-30"></div>
-      <aside id="sidebar" class="col-span-4 bg-gray-600 min-h-0 flex flex-col overflow-hidden">
-        <div class="flex items-center m-2 gap-4 px-2.5 py-3">
-          <button id="categorie-btn" class="bg-gray-200 text-lg p-2 rounded-lg">
+      <aside id="sidebar" class="lg:col-span-4 bg-gray-600 h-screen flex flex-col overflow-hidden">
+        <div class="flex items-center m-2 gap-3 px-2 py-3 shrink-0">
+          <button id="categorie-btn" class="bg-gray-200 text-sm md:text-lg p-2 rounded-lg shrink-0">
             Categories
           </button>
           <div
@@ -34,7 +34,7 @@
             class="fixed top-0 -left-64 bg-white rounded-lg shadow-xl p-3 w-64 z-50 h-screen transition-all duration-300 ease-in-out"
           >
             <div
-              class="flex flex-nowrap justify-between items-center mb-4 border-b pb-3"
+              class="flex justify-between items-center mb-4 border-b pb-3"
             >
               <h2 class="text-xl font-bold">Catégories</h2>
 
@@ -50,7 +50,7 @@
               <!--categories will be appended here-->
             </div>
           </div>
-          <div class="w-full">
+          <div class="w-full min-w-0">
             <input
               id="search-bar"
               type="text"
@@ -60,50 +60,50 @@
           </div>
         </div>
 
-        <div class="mt-2 mx-5 flex items-center justify-between">
-          <h3 class="text-white font-bold text-3xl">Channels Television</h3>
-          <span class="text-gray-300 text-xl">En direct</span>
+        <div class="mt-2 mx-5 md:mx-5 flex items-center justify-between gap-2 shrink-0">
+          <h3 class="text-white font-bold text-xl md:text-3xl">Channels Television</h3>
+          <span class="text-gray-300 text-sm md:text-xl shrink-0">En direct</span>
         </div>
         <div
           id="channels-card"
-          class="m-4 min-h-0 overflow-y-auto scrollbar-thumb-gray-500"
+          class="m-3 md:m-4 min-h-0 flex-1 overflow-x-hidden scrollbar-thumb-gray-500"
         >
           <!--here's the cards place-->
         </div>
       </aside>
 
-      <section class="bg-blue-950 min-h-0 col-span-8 p-6 flex flex-col overflow-y-auto">
-        <div id="channel-header" class="flex items-center justify-between mb-4">
-          <div>
-            <h1 id="player-channel" class="text-white text-2xl font-bold">
+      <section class="bg-blue-950 lg:col-span-8 p-3 md:p-6 flex flex-col gap-3 overflow-y-auto">
+        <div id="channel-header" class="flex items-center justify-between gap-3 shrink-0">
+          <div class="min-w-0">
+            <h1 id="player-channel" class="text-white text-xl md:text-2xl font-bold">
               TV en direct
             </h1>
-            <h2 id="channels-selected" class="text-white text-xl font-bold">
+            <h2 id="channels-selected" class="text-white text-lg md:text-xl font-bold">
               Channel
             </h2>
-            <p id="channel-number" class="text-blue-200 text-sm">Select Channel</p>
+            <p id="channel-number" class="text-blue-200 text-sm"></p>
           </div>
           <div
             id="country-code"
-            class="bg-blue-800 text-white px-3 py-2 rounded-lg font-bold"
+            class="bg-blue-800 text-white px-3 py-2 rounded-lg font-bold shrink-0"
           ></div>
         </div>
 
         <div
           id="play-case"
-          class="bg-black w-full aspect-video rounded-lg overflow-hidden"
+          class="bg-black w-full aspect-video rounded-lg overflow-hidden shrink-0"
         >
           <video id="player-video" class="h-full w-full" controls autoplay muted></video>
         </div>
 
-        <div id="egp-zone" class="bg-blue-900 text-white mt-4 p-4 rounded-lg">
-          <h2 class="bg-white-200 font-black text-lg mb-2">
+        <div id="egp-zone" class="bg-blue-900 text-white p-3 md:p-4 rounded-lg shrink-0">
+          <h2 class="font-black text-xl md:text-lg mb-2">
             Programme en cours
           </h2>
 
           <h3 id="epg-program" class="text-white"></h3>
 
-          <div class="flex justify-between text-2xl text-white mt-3">
+          <div class="flex justify-between gap-2 text-xl md:text-2xl text-white mt-3">
             <p id="epg-start"></p>
             <span id="epg-end"></span>
           </div>
@@ -115,15 +115,12 @@
       </section>
     </main>
 
-    <!-- <footer
-      class="bg-gray-900 text-white px-6 py-4 flex items-center justify-between shadow-lg"
+    <footer
+      class="bg-gray-900 text-gray-400 px-4 md:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs md:text-sm shrink-0"
     >
-      <div>
-        <h1 class="text-2xl font-bold">Smart Stream</h1>
-        <p class="text-gray-400 text-xs">Votre télivision</p>
-      </div>
-      <div class="text-sm text-gray-300">TV en direct</div>
-    </footer> -->
+    <P>2026 Smart Stream</P>
+    <P>Votre télévision en direct</P>
+    </footer>
 
     <script type="module" src="js/app.js"></script>
   </body>
