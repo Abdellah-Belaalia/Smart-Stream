@@ -77,6 +77,8 @@ export function rendre(data) {
     data.forEach(element => {
         const card = document.createElement('div')
 
+        card.dataset.channelId = element.id;
+
         card.classList.add(
             "card-channels",
             "bg-gray-800",
@@ -154,20 +156,35 @@ export function rendre(data) {
     });
 }
 
-    // data.forEach(element => {
-    //     channelsCard.innerHTML += `
-    //     <div
-    //         class="card-channels bg-gray-800 border border-gray-700 p-2 flex items-center rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md"
-    //       >
-    //         <img
-    //           src="${element.logo}"
-    //           alt=""
-    //           class="w-16 h-16 bg-white rounded-lg p-1 object-contain"
-    //         />
-    //         <div class="p-2 min-w-0 flex-1">
-    //           <h1 class="font-bold text-white">${element.name}</h1>
-    //           <h2 class="text-xs text-gray-400 mt-1">${element.category}</h2>
-    //         </div>
-    //       </div>
-    //     `
-    // });
+// data.forEach(element => {
+//     channelsCard.innerHTML += `
+//     <div
+//         class="card-channels bg-gray-800 border border-gray-700 p-2 flex items-center rounded-lg my-2 hover:-translate-y-1 transition duration-300 shadow-md"
+//       >
+//         <img
+//           src="${element.logo}"
+//           alt=""
+//           class="w-16 h-16 bg-white rounded-lg p-1 object-contain"
+//         />
+//         <div class="p-2 min-w-0 flex-1">
+//           <h1 class="font-bold text-white">${element.name}</h1>
+//           <h2 class="text-xs text-gray-400 mt-1">${element.category}</h2>
+//         </div>
+//       </div>
+//     `
+// });
+
+export function playChannel(channels) {
+    const channelsCard = document.getElementById("channels-card")
+    if(!channelsCard) return
+    channelsCard.addEventListener("click", (e)=>{
+        const selectedCard = e.target.closest(".card-channels")
+        if(!selectedCard) return;
+        const channelId = selectedCard.dataset.channelId;
+
+        const selectedChannel = channels.find(
+            channel => channel.id === channelId
+        );
+        console.log(selectedChannel)
+    })
+}
