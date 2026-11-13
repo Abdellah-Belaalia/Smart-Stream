@@ -39,7 +39,6 @@ function getCategories(channels) {
     const uniqueCategorie = categories.filter((category, index) => {
         return categories.indexOf(category) === index
     });
-    console.log(["TOUTES CATÉGORIES", ...uniqueCategorie])
     return ["TOUTES CATÉGORIES", ...uniqueCategorie]
 }
 
@@ -177,10 +176,32 @@ export function rendre(data) {
 
 export function playChannel(channels) {
     const channelsCard = document.getElementById("channels-card")
-    if(!channelsCard) return
-    channelsCard.addEventListener("click", (e)=>{
+    if (!channelsCard) return
+
+    const selectedChannel = channels.find(
+        channel => channel.id === "1"
+    );
+    const videoPlayer = document.getElementById("player-video")
+    if (!videoPlayer) return
+
+    document.getElementById('channels-selected').textContent = selectedChannel.name
+    document.getElementById('channel-number').textContent = selectedChannel.channelNumber
+    document.getElementById('country-code').textContent = selectedChannel.countryCode
+
+
+    document.getElementById('epg-program').textContent = selectedChannel.epg.currentProgram
+    document.getElementById("epg-start").textContent = selectedChannel.epg.startTime
+    document.getElementById("epg-end").textContent = selectedChannel.epg.endTime
+    document.getElementById('epg-progress').style.width = `${selectedChannel.epg.progressPercentage}%`
+
+    videoPlayer.src = selectedChannel.streamUrl;
+    videoPlayer.load()
+
+    videoPlayer.play()
+
+    channelsCard.addEventListener("click", (e) => {
         const selectedCard = e.target.closest(".card-channels")
-        if(!selectedCard) return;
+        if (!selectedCard) return;
         const channelId = selectedCard.dataset.channelId;
 
         const selectedChannel = channels.find(
@@ -191,21 +212,21 @@ export function playChannel(channels) {
         document.getElementById('channel-number').textContent = selectedChannel.channelNumber
         document.getElementById('country-code').textContent = selectedChannel.countryCode
 
-        
+
         document.getElementById('epg-program').textContent = selectedChannel.epg.currentProgram
         document.getElementById("epg-start").textContent = selectedChannel.epg.startTime
         document.getElementById("epg-end").textContent = selectedChannel.epg.endTime
         document.getElementById('epg-progress').style.width = `${selectedChannel.epg.progressPercentage}%`
 
 
-    const videoPlayer = document.getElementById("player-video")
-    if(!videoPlayer) return
+        const videoPlayer = document.getElementById("player-video")
+        if (!videoPlayer) return
 
-    videoPlayer.src = selectedChannel.streamUrl;
-    videoPlayer.load()
+        videoPlayer.src = selectedChannel.streamUrl;
+        videoPlayer.load()
 
-    videoPlayer.play().catch(error =>{
-        console.log("MarBA7nach", error)
-    })
+        videoPlayer.play().catch(error => {
+            console.log("MarBA7nach", error)
+        })
     })
 }

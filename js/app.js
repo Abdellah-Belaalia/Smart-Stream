@@ -1,9 +1,10 @@
+import { getChannels } from "./api.js";
 import { selectCategory, rechercheChannel } from "./search.js";
-import { getData } from "./storage.js";
+// import { getData } from "./storage.js";
 import { categoryShower, showCategorie, rendre, playChannel } from "./ui.js";
 
 
-const channels = getData("channels")
+const channels = await getChannels()
 showCategorie();
 
 categoryShower(channels)
